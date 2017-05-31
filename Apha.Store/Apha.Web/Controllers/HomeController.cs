@@ -11,8 +11,7 @@ namespace Apha.Web.Controllers
         public ActionResult Index()
         {
             string some = "some var added";
-            string localsome = some + "more";
-            
+            some = some + "more";
             return View();
         }
 
