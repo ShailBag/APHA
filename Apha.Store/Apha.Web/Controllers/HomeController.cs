@@ -10,6 +10,7 @@ namespace Apha.Web.Controllers
     {
         public ActionResult Index()
         {
+            string some = "some var added";
             return View();
         }
 
