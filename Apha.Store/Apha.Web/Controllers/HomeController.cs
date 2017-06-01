@@ -18,6 +18,7 @@ namespace Apha.Web.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
+            string newvar = "change1";
 
             return View();
         }
