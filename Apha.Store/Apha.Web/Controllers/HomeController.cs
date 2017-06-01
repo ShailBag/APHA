@@ -11,13 +11,14 @@ namespace Apha.Web.Controllers
         public ActionResult Index()
         {
             string some = "some var added";
-            some = some + "more";
+            some = some + "more reset..one more reset";
             return View();
         }
 
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
+            string newvar = "change1";
 
             return View();
         }
