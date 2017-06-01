@@ -25,7 +25,7 @@ namespace Apha.Web.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-
+            string d = "343";
             return View();
         }
     }
